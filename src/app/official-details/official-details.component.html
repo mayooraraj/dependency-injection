@@ -1,0 +1,19 @@
+<h1>Official Details of Employee</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Work Location</th>
+            <th>salary</th>
+        </tr>
+    </thead>
+        <tbody>
+            <tr *ngFor="let i of official">
+                <td>{{ i.name }}</td>
+                <td>{{ i.department}}</td>
+                <td>{{ i.location }}</td>
+                <td>{{ i.salary }}</td>
+              </tr>
+        </tbody>
+</table>

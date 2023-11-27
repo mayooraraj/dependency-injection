@@ -1,0 +1,17 @@
+<h1>Personal Details of Employee</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Place</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor ="let i of personal">
+            <td>{{i.name}}</td>
+            <td>{{i.age}}</td>
+            <td>{{i.place}}</td>
+        </tr>
+    </tbody>
+</table>
